@@ -1,9 +1,12 @@
 import './App.scss';
+import BurgerMenu from './components/BurgerMenu';
+import PortfolioContent from './components/PortfolioContent';
 
 function App() {
   return (
-    <div className='start'>
-      <h2>Beginning of Prashant's Portfolio</h2>
+    <div className='main-container'>
+      <BurgerMenu />
+      <PortfolioContent />
     </div>
   );
 }
