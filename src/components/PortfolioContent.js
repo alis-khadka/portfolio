@@ -4,7 +4,7 @@ import ScrollableContent from './ScrollableContent';
 
 function PortfolioContent() {
   return (
-    <div>
+    <div className='portfolio-content'>
       <FixedContent />
       <ScrollableContent />
     </div>
