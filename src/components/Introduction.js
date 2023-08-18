@@ -1,8 +1,11 @@
 import './Introduction.scss';
+import headshot from './../headshot.png'
 
 function Introduction() {
 	return (
-		<section>Introduction Section</section>
+		<section id='introduction' className='d-flex justify-content-center align-items-center'>
+			<img src={headshot} alt='hello' />
+		</section>
 	);
 }
 
