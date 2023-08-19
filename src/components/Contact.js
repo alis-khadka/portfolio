@@ -2,7 +2,9 @@ import './Contact.scss';
 
 function Contact() {
 	return (
-		<section>Contact Section</section>
+		<section id='contact' className='d-flex justify-content-center align-items-center'>
+			hello
+		</section>
 	);
 }
 
