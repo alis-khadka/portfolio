@@ -2,7 +2,9 @@ import './Projects.scss';
 
 function Projects() {
 	return (
-		<section>Projects Section</section>
+		<section id='projects' className='d-flex justify-content-center align-items-center'>
+			hello
+		</section>
 	);
 }
 
