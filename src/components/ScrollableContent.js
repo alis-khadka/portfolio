@@ -8,7 +8,7 @@ import Skills from './Skills';
 
 function ScrollableContent() {
 	return (
-		<main class="scroll-container w-50 ml-50">
+		<main className="scroll-container w-50 ml-50">
 			<span id='introduction' className='h-0 opacity-0'/>
 			<Introduction />
 
