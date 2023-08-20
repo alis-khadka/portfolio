@@ -2,7 +2,7 @@ import './About.scss';
 
 function About() {
 	return (
-		<section id='about' className='d-flex justify-content-center align-items-center'>
+		<section id='about-content' className='scroll-item d-flex justify-content-center align-items-center'>
 			hello
 		</section>
 	);

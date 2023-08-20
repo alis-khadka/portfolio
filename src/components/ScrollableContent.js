@@ -8,13 +8,22 @@ import Skills from './Skills';
 
 function ScrollableContent() {
 	return (
-		<div className='w-50 ml-50'>
+		<main class="scroll-container w-50 ml-50">
+			<span id='introduction' className='h-0 opacity-0'/>
 			<Introduction />
+
+			<span id='about' className='h-0 opacity-0'/>
 			<About />
+
+			<span id='projects' className='h-0 opacity-0'/>
 			<Projects />
+
+			<span id='skills' className='h-0 opacity-0'/>
 			<Skills />
+
+			<span id='contact' className='h-0 opacity-0'/>
 			<Contact />
-		</div>
+		</main>
 	);
 }
 
