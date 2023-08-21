@@ -8,9 +8,10 @@
   display: block;
   cursor: pointer;
   transition: opacity 0.2s linear;
+  opacity: 0.8;
 
   &:hover {
-    opacity: 0.8;
+    opacity: 0.9;
   }
 
   span {
