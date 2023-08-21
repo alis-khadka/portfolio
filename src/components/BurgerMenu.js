@@ -20,20 +20,30 @@ function BurgerMenu() {
       <span className='cls'></span>
       <span>
         <ul className='sub-menu '>
-          <li onClick={handleMenuClick} data-section-id='introduction'>
-            Home
+          <li>
+            <div className='d-inline hover-underline-animation' onClick={handleMenuClick} data-section-id='introduction'>
+              Home
+            </div>
           </li>
-          <li onClick={handleMenuClick} data-section-id='about'>
-            About
+          <li>
+            <div className='d-inline hover-underline-animation' onClick={handleMenuClick} data-section-id='about'>
+              About
+            </div>
           </li>
-          <li onClick={handleMenuClick} data-section-id='projects'>
-            Projects
+          <li>
+            <div className='d-inline hover-underline-animation' onClick={handleMenuClick} data-section-id='projects'>
+              Projects
+            </div>
           </li>
-          <li onClick={handleMenuClick} data-section-id='skills'>
-            Skills
+          <li>
+            <div className='d-inline hover-underline-animation' onClick={handleMenuClick} data-section-id='skills'>
+              Skills
+            </div>
           </li>
-          <li onClick={handleMenuClick} data-section-id='contact'>
-            Contact
+          <li>
+            <div className='d-inline hover-underline-animation' onClick={handleMenuClick} data-section-id='contact'>
+              Contact
+            </div>
           </li>
         </ul>
       </span>
