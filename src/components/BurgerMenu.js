@@ -1,6 +1,6 @@
 import './BurgerMenu.scss';
 
-function BurgerMenu() {
+function BurgerMenu(props) {
   const handleClick = (event) => {
     if (event.currentTarget.classList.contains('openned')) {
       event.currentTarget.classList.remove('openned');
@@ -10,9 +10,9 @@ function BurgerMenu() {
   };
 
   const handleMenuClick = (event) => {
-    document
-      .getElementById(event.currentTarget.getAttribute('data-section-id'))
-      .scrollIntoView({ behavior: 'smooth' });
+    props[
+      event.currentTarget.getAttribute('data-section-ref')
+    ].current.scrollIntoView({ behavior: 'smooth' });
   };
 
   return (
@@ -21,27 +21,27 @@ function BurgerMenu() {
       <span>
         <ul className='sub-menu '>
           <li>
-            <div className='d-inline hover-underline-animation' onClick={handleMenuClick} data-section-id='introduction'>
+            <div className='d-inline hover-underline-animation' onClick={handleMenuClick} data-section-ref='introductionRef'>
               Home
             </div>
           </li>
           <li>
-            <div className='d-inline hover-underline-animation' onClick={handleMenuClick} data-section-id='about'>
+            <div className='d-inline hover-underline-animation' onClick={handleMenuClick} data-section-ref='aboutRef'>
               About
             </div>
           </li>
           <li>
-            <div className='d-inline hover-underline-animation' onClick={handleMenuClick} data-section-id='projects'>
+            <div className='d-inline hover-underline-animation' onClick={handleMenuClick} data-section-ref='projectsRef'>
               Projects
             </div>
           </li>
           <li>
-            <div className='d-inline hover-underline-animation' onClick={handleMenuClick} data-section-id='skills'>
+            <div className='d-inline hover-underline-animation' onClick={handleMenuClick} data-section-ref='skillsRef'>
               Skills
             </div>
           </li>
           <li>
-            <div className='d-inline hover-underline-animation' onClick={handleMenuClick} data-section-id='contact'>
+            <div className='d-inline hover-underline-animation' onClick={handleMenuClick} data-section-ref='contactRef'>
               Contact
             </div>
           </li>
