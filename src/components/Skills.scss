@@ -1,5 +1,36 @@
 #skills-content {
-	background: rgb(0,4,40);
-	background: linear-gradient(90deg, rgba(0,4,40,1) 10%, rgb(75, 75, 75) 100%);
-	color: white;
+	background: #D7D8DB;
+	color: #000428;
+
+	::selection {
+		background: #000428;
+		color: #ffffff;
+	}
+
+	ul {
+		list-style: none;
+    display: grid;
+    -webkit-box-pack: center;
+    justify-content: center;
+    gap: 3rem;
+    grid-template-columns: repeat(auto-fill, 7rem);
+		cursor: default;
+	}
+
+	.skill-item {
+		border: 2px solid rgba(0,4,40,1);
+    border-radius: 40px;
+    background: transparent;
+		padding: 5px 20px;
+		cursor: default;
+	}
+
+	.skill-item:hover {
+		background: rgba(0,4,40,1);
+		color: #FFFFFF;
+	}
+
+	.skill-icon {
+		font-size: 25px;
+	}
 }

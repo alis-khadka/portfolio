@@ -15,11 +15,11 @@ function ScrollableContent(props) {
 			<span ref={props.aboutRef} className='h-0 opacity-0'/>
 			<About />
 
-			<span ref={props.projectsRef} className='h-0 opacity-0'/>
-			<Projects />
-
 			<span ref={props.skillsRef} className='h-0 opacity-0'/>
 			<Skills />
+
+			<span ref={props.projectsRef} className='h-0 opacity-0'/>
+			<Projects />
 
 			<span ref={props.contactRef} className='h-0 opacity-0'/>
 			<Contact />
