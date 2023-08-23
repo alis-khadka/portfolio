@@ -7,3 +7,9 @@
 		width: 300px;
 	}
 }
+
+@media (max-width: 991.98px) {
+	#introduction-content {
+		display: none !important;
+	}
+}

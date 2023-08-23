@@ -9,7 +9,6 @@ import Skills from './Skills';
 function ScrollableContent(props) {
 	return (
 		<main className="scroll-container">
-			<span ref={props.introductionRef} className='h-0 opacity-0'/>
 			<Introduction />
 
 			<span ref={props.aboutRef} className='h-0 opacity-0'/>
