@@ -1,3 +1,15 @@
 #about-content {
 	background-color: #ffffff;
+
+	li {
+		width: max-content;
+	}
+}
+
+@media (max-width: 575.98px) {
+	#about-content {
+		p, a {
+			font-size: 12px;
+		}
+	}
 }
