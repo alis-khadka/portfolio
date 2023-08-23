@@ -9,12 +9,34 @@
 
 	ul {
 		list-style: none;
-    display: grid;
-    -webkit-box-pack: center;
-    justify-content: center;
-    gap: 2rem;
-    grid-template-columns: repeat(auto-fill, 6rem);
+		display: grid;
+		-webkit-box-pack: center;
+		justify-content: center;
+		gap: 3rem;
+		grid-template-columns: repeat(auto-fill, 6.5rem);
 		cursor: default;
+	}
+
+	.text-small {
+		font-size: 16px;
+	}
+
+	@media (max-width: 1199.98px) {
+		ul {
+			gap: 2rem;
+			grid-template-columns: repeat(auto-fill, 6rem);
+		}
+
+		.text-small {
+			font-size: 14px;
+		}
+	}
+
+	@media (max-width: 991.98px) {
+		ul {
+			gap: 1.5rem;
+			grid-template-columns: repeat(auto-fill, 6rem);
+		}
 	}
 
 	.skill-item {
@@ -32,9 +54,5 @@
 
 	.skill-icon {
 		font-size: 25px;
-	}
-
-	.text-small {
-		font-size: 14px;
 	}
 }
