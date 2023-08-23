@@ -21,23 +21,18 @@ function BurgerMenu(props) {
       <span>
         <ul className='sub-menu '>
           <li>
-            <div className='d-inline hover-underline-animation' onClick={handleMenuClick} data-section-ref='introductionRef'>
-              Home
-            </div>
-          </li>
-          <li>
             <div className='d-inline hover-underline-animation' onClick={handleMenuClick} data-section-ref='aboutRef'>
               About
             </div>
           </li>
           <li>
-            <div className='d-inline hover-underline-animation' onClick={handleMenuClick} data-section-ref='projectsRef'>
-              Projects
+            <div className='d-inline hover-underline-animation' onClick={handleMenuClick} data-section-ref='skillsRef'>
+              Skills
             </div>
           </li>
           <li>
-            <div className='d-inline hover-underline-animation' onClick={handleMenuClick} data-section-ref='skillsRef'>
-              Skills
+            <div className='d-inline hover-underline-animation' onClick={handleMenuClick} data-section-ref='projectsRef'>
+              Projects
             </div>
           </li>
           <li>
