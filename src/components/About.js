@@ -3,7 +3,11 @@ import './About.scss';
 function About() {
 	return (
 		<section id='about-content' className='scroll-item p-5'>
-			<h2 className='hover-underline-animation'>About me</h2>
+			<h2 className='section-heading'>
+				<span className='hover-underline-animation'>
+					About me
+				</span>
+			</h2>
 
 			<p className='mt-5 mb-4'>
 				Back in 2014, I decided to try my hand at creating simple calculator app 

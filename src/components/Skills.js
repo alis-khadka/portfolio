@@ -28,7 +28,11 @@ import {
 function Skills() {
 	return (
     <section id='skills-content' className='scroll-item p-5'>
-      <h2 className='hover-underline-animation'>Skills</h2>
+      <h2 className='section-heading'>
+				<span className='hover-underline-animation'>
+					Skills
+				</span>
+			</h2>
 
       <ul className='mt-5 p-0'>
         <li className='hover-underline-animation d-flex flex-column justify-content-center align-items-center'>
