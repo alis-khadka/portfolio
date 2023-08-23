@@ -12,15 +12,15 @@
     display: grid;
     -webkit-box-pack: center;
     justify-content: center;
-    gap: 3rem;
-    grid-template-columns: repeat(auto-fill, 7rem);
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fill, 6rem);
 		cursor: default;
 	}
 
 	.skill-item {
 		border: 2px solid rgba(0,4,40,1);
-    border-radius: 40px;
-    background: transparent;
+		border-radius: 40px;
+		background: transparent;
 		padding: 5px 20px;
 		cursor: default;
 	}
@@ -32,5 +32,9 @@
 
 	.skill-icon {
 		font-size: 25px;
+	}
+
+	.text-small {
+		font-size: 14px;
 	}
 }
