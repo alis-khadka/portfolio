@@ -3,8 +3,8 @@
 	z-index: 100;
   top: 30px;
   left: 40px;
-  width: 50px;
-  height: 50px;
+  width: 55px;
+  height: 55px;
   display: block;
   cursor: pointer;
   transition: opacity 0.2s linear;
@@ -23,7 +23,7 @@
     border-radius: 40px;
     background-color: #fff;
     position: absolute;
-    right: 3px;
+    right: 7px;
     overflow: hidden;
     transition: all 0.4s ease;
 
@@ -150,4 +150,9 @@
 .hover-underline-animation:hover::after {
   transform: scaleX(1);
   transform-origin: bottom left;
+}
+
+#burger-menu {
+  background: rgb(0,4,40);
+  border-radius: 10px;
 }
