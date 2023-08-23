@@ -1,10 +1,8 @@
-.ml-50 {
-  margin-left: 50%;
-}
-
 .scroll-container {
+	width: 50%;
+	margin-left: 50%;
 	height: 100vh;
-	overflow: scroll;
+	overflow-y: scroll;
 	scroll-snap-type: y mandatory;
 
 	section {
@@ -70,4 +68,16 @@
 
 .opacity-0 {
 	opacity: 0;
+}
+
+@media (max-width: 991.98px) {
+	.scroll-container {
+		margin-left: 0;
+		width: 100%;
+		scroll-snap-type: none;
+	}
+
+	.scroll-item {
+		scroll-snap-align: none;
+	}
 }

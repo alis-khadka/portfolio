@@ -3,12 +3,12 @@ import FixedContent from './FixedContent';
 import ScrollableContent from './ScrollableContent';
 
 function PortfolioContent(props) {
-  return (
-    <div className='portfolio-content'>
-      <FixedContent />
-      <ScrollableContent {...props} />
-    </div>
-  );
+	return (
+		<div className='portfolio-content'>
+			<FixedContent />
+			<ScrollableContent {...props} />
+		</div>
+	);
 }
 
 export default PortfolioContent;
