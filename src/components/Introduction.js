@@ -1,5 +1,5 @@
 import './Introduction.scss';
-import headshot from './../headshot.png'
+import headshot from './../images/headshot.png'
 
 function Introduction() {
 	return (
