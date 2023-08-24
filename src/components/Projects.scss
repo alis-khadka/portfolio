@@ -1,3 +1,126 @@
 #projects-content {
 	background-color: #FFFFFF;
+
+	.slider {
+		text-align: center;
+		overflow: hidden;
+		max-width: 650px;
+	}
+	.flex-auto {
+		flex: auto;
+	}
+	  
+	.slides {
+		display: flex;
+		border-radius: 10px;
+		overflow-x: auto;
+		scroll-snap-type: x mandatory;
+		scroll-behavior: smooth;
+		-webkit-overflow-scrolling: touch;
+	}
+
+	.slides::-webkit-scrollbar {
+		width: 10px;
+		height: 10px;
+	}
+
+	.slides::-webkit-scrollbar-thumb {
+		background: black;
+		border-radius: 10px;
+	}
+
+	.slides::-webkit-scrollbar-track {
+		background: transparent;
+	}
+
+	.slide-item {
+		scroll-snap-align: start;
+		flex-shrink: 0;
+		width: 100%;
+		max-height: 650px;
+		margin-right: 50px;
+		border-radius: 10px;
+		background: #eee;
+		transform-origin: center center;
+		transform: scale(1);
+		transition: transform 0.5s;
+		position: relative;
+		
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 100px;
+	}
+
+	.slider > a {
+		display: inline-flex;
+		width: 1.5rem;
+		height: 1.5rem;
+		background: white;
+		text-decoration: none;
+		align-items: center;
+		justify-content: center;
+		border-radius: 50%;
+		margin: 0 0 0.5rem 0;
+		position: relative;
+	}
+
+	.card {
+		height: 100%;
+		font-size: 20px;
+		background-color: #EEEEEE;
+		border: none;
+		width: 100%;
+		cursor: default;
+
+		.card-body {
+			font-size: 14px;
+			color: rgba(0, 4, 40, 0.7);
+		}
+
+		.card-title {
+			display: inline;
+		}
+
+		ul {
+			text-align: left;
+		}
+
+		img {
+			max-height: 180px;
+			object-fit: cover;
+			padding: 10px;
+			border-radius: 20px;
+		}
+
+		.tech-item {
+			display: inline-block;
+			font-weight: 400;
+			font-size: 12px;
+			color: rgba(0, 4, 40, 0.7) !important;
+			letter-spacing: 1px;
+			line-height: 1.4;
+			border: 1px solid rgba(0, 4, 40, 0.7) !important;
+			border-radius: 40px;
+			background: transparent;
+			transition: all 0.3s ease 0s;
+			max-width: 350px;
+			margin: 0 7px 5px 0;
+		}
+
+		.project-links {
+			font-size: 14px;
+
+			a {
+				margin-right: 14px;
+				color: rgba(0, 4, 40, 0.7) !important;
+				text-decoration: none;
+				cursor: pointer;
+			}
+		}
+	}
+}
+
+.text-left {
+	text-align: left;
 }
