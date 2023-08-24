@@ -108,6 +108,10 @@
 			margin: 0 7px 5px 0;
 		}
 
+		.tech-item:hover {
+			font-weight: 600;
+		}
+
 		.project-links {
 			font-size: 14px;
 
@@ -116,6 +120,14 @@
 				color: rgba(0, 4, 40, 0.7) !important;
 				text-decoration: none;
 				cursor: pointer;
+			}
+
+			a:hover {
+				font-weight: 600;
+			}
+
+			a.hover-underline-animation::after {
+				height: 1px;
 			}
 		}
 	}
