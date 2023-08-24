@@ -82,6 +82,11 @@
 			display: inline;
 		}
 
+		.card-text > .hover-underline-animation::after {
+			height: 1px;
+			bottom: 1px;
+		}
+
 		ul {
 			text-align: left;
 		}

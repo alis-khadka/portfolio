@@ -26,18 +26,90 @@ const projectsDetail = [
 			'Ruby on Rails',
 			'HTML',
 			'CSS',
+			'SQL',
 			'jQuery',
 			'Heroku',
 			'Dokku',
 			'Bootstrap',
 			'Github Actions',
 			'API Integrations',
-			'Unit Testing',
-			'Integration Testing'
+			'Minitest'
 		],
 		liveLink: "https://violet.restarone.solutions/",
 		githubLink: "https://github.com/restarone/violet_rails"
 	},
+	{
+		image: CopperCRM, 
+		name: 'Copper CRM',
+		description: "A CRM application that provides integration with Google Workspace and helps clients to cultivate enduring relationships with clients.",
+		responsibilities: [
+			"Technical scoping, time estimation, and development of \"Pipeline\" entity's creation-template pages",
+			"Develop new features and pages for user's onboarding"
+		],
+		techStacks: [
+			'Ruby on Rails',
+			'EmberJS',
+			'Jasmine'
+		],
+		liveLink: "https://www.copper.com/"
+	},
+	{
+		image: Trip101, 
+		name: 'Trip101',
+		description: "Trip101 is tourism-centric website that presents articles catered to travelers worldwide, offering insightful suggestions on exciting activities and a wide selection of accommodation properties.",
+		responsibilities: [
+			"Develop Trip101 CMS from scratch using Angular 2+",
+			"Migrate a micro service written in vanillaJS and jquery to React.js",
+			"Third party API integrations of Expedia, Sonder, and The Apartment Network",
+			"Develop features for admin panel"
+		],
+		techStacks: [
+			'Ruby on Rails',
+			'SQL',
+			'jquery',
+			'vanillaJS',
+			'Angular 2+',
+			'React.js',
+			'Rspec',
+			'Jasmine',
+			'Jest'
+		],
+		liveLink: "https://trip101.com/"
+	},
+	{
+		image: OhoEcommerce, 
+		name: 'OHO E-commerce',
+		description: "E-commerce site operating within the context of Nepal which offers a diverse range of  services including general merchandise, food delivery, and ride sharing",
+		responsibilities: [
+			"Categorization and sub-categorization of products",
+			"Implement banner placement throughout the website for advertise purpose",
+			"Implement Elasticsearch for searching using fuzzy search and filters using aggregations"
+		],
+		techStacks: [
+			'Ruby on Rails',
+			'SQL',
+			'Angular 2+',
+			'Elasticsearch',
+			'Rspec'
+		],
+		liveLink: "https://oho.bajratechnologies.com/service/mall"
+	},
+	{
+		image: Brandguarde, 
+		name: 'Brandguarde',
+		description: "A SAAS product that informs product distributors against unwanted resellers in distribution channels like Amazon and Walmart",
+		responsibilities: [
+			"Write SQL queries to fetch required result",
+			"Develop UI features from provided design file"
+		],
+		techStacks: [
+			'Ruby on Rails',
+			'SQL',
+			'Angular 2+',
+			'Rspec'
+		],
+		liveLink: "https://www.brandguarde.com/"
+	}
   ]
   
 
