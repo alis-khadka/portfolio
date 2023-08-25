@@ -1,59 +1,59 @@
 #skills-content {
-	background: #D7D8DB;
-	color: #000428;
+  background: #D7D8DB;
+  color: #000428;
 
-	::selection {
-		background: #000428;
-		color: #ffffff;
-	}
+  ::selection {
+    background: #000428;
+    color: #ffffff;
+  }
 
-	ul {
-		list-style: none;
-		display: grid;
-		-webkit-box-pack: center;
-		justify-content: center;
-		gap: 3rem;
-		grid-template-columns: repeat(auto-fill, 6.5rem);
-		cursor: default;
-	}
+  ul {
+    list-style: none;
+    display: grid;
+    -webkit-box-pack: center;
+    justify-content: center;
+    gap: 3rem;
+    grid-template-columns: repeat(auto-fill, 6.5rem);
+    cursor: default;
+  }
 
-	.text-small {
-		font-size: 16px;
-	}
+  .text-small {
+    font-size: 16px;
+  }
 
-	.skill-item {
-		border: 2px solid rgba(0,4,40,1);
-		border-radius: 40px;
-		background: transparent;
-		padding: 5px 20px;
-		cursor: default;
-	}
+  .skill-item {
+    border: 2px solid rgba(0,4,40,1);
+    border-radius: 40px;
+    background: transparent;
+    padding: 5px 20px;
+    cursor: default;
+  }
 
-	.skill-item:hover {
-		background: rgba(0,4,40,1);
-		color: #FFFFFF;
-	}
+  .skill-item:hover {
+    background: rgba(0,4,40,1);
+    color: #FFFFFF;
+  }
 
-	.skill-icon {
-		font-size: 25px;
-	}
+  .skill-icon {
+    font-size: 25px;
+  }
 
-	@media (max-width: 1199.98px) {
-		ul {
-			gap: 2rem;
-			grid-template-columns: repeat(auto-fill, 6rem);
-		}
+  @media (max-width: 1199.98px) {
+    ul {
+      gap: 2rem;
+      grid-template-columns: repeat(auto-fill, 6rem);
+    }
 
-		.text-small {
-			font-size: 14px;
-		}
-	}
+    .text-small {
+      font-size: 14px;
+    }
+  }
 
-	@media (max-width: 991.98px) {
-		ul {
-			gap: 3rem;
-			grid-template-columns: repeat(auto-fill, 7rem);
-		}
+  @media (max-width: 991.98px) {
+    ul {
+      gap: 3rem;
+      grid-template-columns: repeat(auto-fill, 7rem);
+    }
 
     .text-small {
       font-size: 16px;
@@ -62,13 +62,13 @@
     .skill-icon {
       font-size: 35px;
     }
-	}
+  }
 
-	@media (max-width: 575.98px) {
-		ul {
-			gap: 1.5rem;
-			grid-template-columns: repeat(auto-fill, 5rem);
-		}
+  @media (max-width: 575.98px) {
+    ul {
+      gap: 1.5rem;
+      grid-template-columns: repeat(auto-fill, 5rem);
+    }
 
     .text-small {
       font-size: 11px;
@@ -77,5 +77,11 @@
     .skill-icon {
       font-size: 25px;
     }
-	}
+  }
+
+  @media (max-width: 400px) {
+    ul {
+      gap: 1rem;
+    }
+  }
 }
