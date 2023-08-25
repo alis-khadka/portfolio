@@ -3,7 +3,6 @@ import './Projects.scss';
 import ProjectItem from './ProjectItem';
 
 // Project Details
-import headshot from './../images/headshot.png';
 import Brandguarde from './../images/Brandguarde.png';
 import CopperCRM from './../images/CopperCRM.png';
 import OhoEcommerce from './../images/OhoEcommerce.png';
