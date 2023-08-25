@@ -98,6 +98,10 @@
 			border-radius: 20px;
 		}
 
+		.tech-stacks {
+			margin-bottom: 10px;
+		}
+
 		.tech-item {
 			display: inline-block;
 			font-weight: 400;
@@ -133,6 +137,40 @@
 
 			a.hover-underline-animation::after {
 				height: 1px;
+			}
+		}
+	}
+
+	@media (max-width: 575.98px) {
+		.slider {
+			margin-top: 10px;
+		}
+
+		.card {
+			img {
+				max-height: 80px;
+			}
+	
+			.card-body {
+				font-size: 12px;
+				color: rgba(0, 4, 40, 0.7);
+			}
+	
+			.card-title {
+				font-size: 15px;
+				margin-bottom: 2px;
+			}
+	
+			ul {
+				margin-bottom: 5px;
+			}
+	
+			.tech-stacks {
+				margin-bottom: 5px;
+			}
+	
+			.tech-item {
+				font-size: 10px;
 			}
 		}
 	}

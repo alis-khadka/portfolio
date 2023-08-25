@@ -18,7 +18,7 @@ function ProjectItem(props) {
                             return <li key={index}>{responsibility}</li>
                         })}
                     </ul>
-                    <div className='mb-3 text-left'>
+                    <div className='tech-stacks text-left'>
                         {project.techStacks.map((techItem, index) => {
                             return <span className='tech-item px-2' key={index}>{techItem}</span>
                         })}
