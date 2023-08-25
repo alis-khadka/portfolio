@@ -2,7 +2,7 @@ import './Projects.scss';
 
 import ProjectItem from './ProjectItem';
 
-// Project Thumbnails
+// Project Details
 import headshot from './../images/headshot.png';
 import Brandguarde from './../images/Brandguarde.png';
 import CopperCRM from './../images/CopperCRM.png';
@@ -126,7 +126,7 @@ function Projects() {
 				<div className="slider">
 					<div className="slides">
 						{projectsDetail.map((data, index) => {
-							return <div className='slide-item'><ProjectItem projectData={data} /></div>
+							return <ProjectItem projectData={data} key={index} />
 						})}
 					</div>
 				</div>
