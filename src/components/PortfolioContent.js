@@ -5,7 +5,7 @@ import ScrollableContent from './ScrollableContent';
 function PortfolioContent(props) {
 	return (
 		<div className='portfolio-content'>
-			<FixedContent />
+			<FixedContent contactRef={props.contactRef} />
 			<ScrollableContent {...props} />
 		</div>
 	);

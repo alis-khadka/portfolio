@@ -13,3 +13,26 @@ body {
   overscroll-behavior: none;
   font-family: Pumo,Helvetica,sans-serif;
 }
+
+.btn.contact-lg-btn {
+  position: absolute;
+  top: 60%;
+  left: 3rem;
+  font-size: 13px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 1);
+  letter-spacing: 1px;
+  line-height: 1.4;
+  height: 50px;
+  border: 2px solid rgba(255, 255, 255, 1);
+  border-radius: 40px;
+  background: transparent;
+  transition: all 0.3s ease 0s;
+  max-width: 250px;
+}
+
+.btn.contact-lg-btn:hover {
+  color: rgba(0, 4, 40, 1);
+  background: rgba(255, 255, 255, 1);
+  border: 2px solid rgba(255, 255, 255, 1);
+}

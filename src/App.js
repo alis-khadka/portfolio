@@ -9,6 +9,10 @@ function App() {
 	const projectsRef = useRef(null);
 	const skillsRef = useRef(null);
 
+	const handleClick = () => {
+		contactRef.current.scrollIntoView({ behavior: 'smooth' });
+	}
+
 	return (
 		<div className="main-container">
 			<BurgerMenu
@@ -24,6 +28,8 @@ function App() {
 			projectsRef={projectsRef}
 			skillsRef={skillsRef}
 			/>
+
+			<button type='button' className='btn d-sm-none d-lg-block contact-lg-btn' onClick={handleClick}>Let's work together</button>
 		</div>
 	);
 }
