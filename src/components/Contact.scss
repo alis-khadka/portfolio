@@ -1,3 +1,89 @@
 #contact-content {
 	background-color: #D7D8DB;
 }
+
+.contact-form.row {
+	margin-top: 4rem;
+}
+
+.contact-text {
+	font-weight: 500;
+	color: rgba(0, 4, 40, 1);
+	cursor: default;
+}
+
+.contact-form .form-field {
+	position: relative;
+	margin: 32px 0;
+}
+
+@media (max-width: 575.98px) {
+	.contact-form.row {
+		margin-top: 0;
+	}
+
+	.contact-form .form-field {
+		margin: 20px 0;
+	}
+}
+
+.contact-form .input-text {
+	display: block;
+	width: 100%;
+	height: 36px;
+	border-width: 0 0 2px 0;
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+	background: transparent;
+}
+
+.contact-form textarea.input-text {
+	height: 4rem;
+}
+
+.contact-form .input-text:focus {
+	outline: none;
+}
+
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label {
+	transform: translateY(-24px);
+	-webkit-transform: translateY(-24px);
+	font-size: 15px;
+}
+
+.contact-form .label {
+	position: absolute;
+	left: 15px;
+	top: 0;
+	bottom: 11px;
+	font-size: 18px;
+	line-height: 26px;
+	font-weight: 400;
+	cursor: text;
+	transition: -webkit-transform .2s ease-in-out;
+	transition: transform .2s ease-in-out;
+	transition: transform .2s ease-in-out, 
+	-webkit-transform .2s ease-in-out;
+}
+
+.contact-form .submit-btn {
+	font-size: 13px;
+	font-weight: 600;
+	color: rgba(0, 4, 40, 1);
+	letter-spacing: 1px;
+	line-height: 1.4;
+	height: 50px;
+	border: 2px solid rgba(0, 4, 40, 1);
+	border-radius: 40px;
+	background: transparent;
+	transition: all 0.3s ease 0s;
+	max-width: 250px;
+}
+
+.contact-form .submit-btn:hover {
+	color: #FFFFFF;
+	background: rgba(0, 4, 40, 1);
+	border: 2px solid rgba(0, 4, 40, 1);
+}
