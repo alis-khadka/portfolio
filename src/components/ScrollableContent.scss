@@ -3,7 +3,6 @@
 	padding-left: 50%;
 	height: 100vh;
 	overflow-y: scroll;
-	scroll-snap-type: y mandatory;
 }
 
 section {
@@ -62,7 +61,6 @@ section {
 .scroll-item {
 	position: sticky;
 	top: 0;
-	scroll-snap-align: start;
 	height: 100vh;
 }
 
@@ -74,11 +72,6 @@ section {
 	.scroll-container {
 		padding-left: 0;
 		width: 100%;
-		scroll-snap-type: none;
-	}
-
-	.scroll-item {
-		scroll-snap-align: none;
 	}
 
 	.section-heading {

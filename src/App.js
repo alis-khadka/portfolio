@@ -29,7 +29,7 @@ function App() {
 			skillsRef={skillsRef}
 			/>
 
-			<button type='button' className='btn d-sm-none d-lg-block contact-lg-btn' onClick={handleClick}>Let's work together</button>
+			<button type='button' className='btn px-5 contact-lg-btn' onClick={handleClick}>Let's work together</button>
 		</div>
 	);
 }

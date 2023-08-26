@@ -15,6 +15,7 @@ body {
 }
 
 .btn.contact-lg-btn {
+  display: block;
   position: absolute;
   top: 60%;
   left: 3rem;
@@ -35,4 +36,10 @@ body {
   color: rgba(0, 4, 40, 1);
   background: rgba(255, 255, 255, 1);
   border: 2px solid rgba(255, 255, 255, 1);
+}
+
+@media (max-width: 991.98px) {
+  .btn.contact-lg-btn {
+    display: none;
+  }
 }
