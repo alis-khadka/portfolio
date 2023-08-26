@@ -1,5 +1,6 @@
 import './FixedContent.scss';
 import headshot from './../images/headshot.png'
+import SocialLinks from './SocialLinks';
 
 
 function FixedContent(props) {
@@ -13,6 +14,9 @@ function FixedContent(props) {
 			<h1 className='mb-5'>Hi. I'm a Software Engineer.</h1>
 			<div className='introduction-text'>My name's Prashant Khadka and I craft robust and scalable web applications using modern web technologies.</div>
 			<button type='button' className='btn mt-5 d-lg-none' onClick={handleClick}>Let's work together</button>
+			<div className='links-container'>
+				<SocialLinks />
+			</div>
 		</div>
 	);
 }

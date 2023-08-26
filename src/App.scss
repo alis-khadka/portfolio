@@ -38,8 +38,28 @@ body {
   border: 2px solid rgba(255, 255, 255, 1);
 }
 
+.links-container {
+  position: absolute;
+  bottom: 3rem;
+  left: 3rem;
+
+  a {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+}
+
+.links-lg-container {
+  display: flex;
+  flex-direction: column;
+}
+
 @media (max-width: 991.98px) {
   .btn.contact-lg-btn {
+    display: none;
+  }
+
+  .links-lg-container {
     display: none;
   }
 }

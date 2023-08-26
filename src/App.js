@@ -2,6 +2,7 @@ import { useRef } from 'react';
 import './App.scss';
 import BurgerMenu from './components/BurgerMenu';
 import PortfolioContent from './components/PortfolioContent';
+import SocialLinks from './components/SocialLinks';
 
 function App() {
 	const aboutRef = useRef(null);
@@ -30,6 +31,10 @@ function App() {
 			/>
 
 			<button type='button' className='btn px-5 contact-lg-btn' onClick={handleClick}>Let's work together</button>
+
+			<div className='links-container links-lg-container'>
+				<SocialLinks />
+			</div>
 		</div>
 	);
 }

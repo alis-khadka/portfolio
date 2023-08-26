@@ -40,6 +40,10 @@
 		background: rgba(255, 255, 255, 1);
 		border: 2px solid rgba(255, 255, 255, 1);
 	}
+
+	.links-container {
+		display: none;
+	}
 }
 
 @media (max-width: 991.98px) {
@@ -63,6 +67,11 @@
 			display: block;
 			height: 200px;
 			width: 200px;
+		}
+
+		.links-container {
+			display: flex;
+			flex-direction: column;
 		}
 	}
 }
