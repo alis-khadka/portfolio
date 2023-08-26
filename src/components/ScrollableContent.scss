@@ -4,58 +4,58 @@
 	height: 100vh;
 	overflow-y: scroll;
 	scroll-snap-type: y mandatory;
+}
 
-	section {
+section {
+	color: #000428;
+
+	::selection {
+		background: #000428;
+		color: #ffffff;
+	}
+
+	h2 {
+		font-weight: 600;
+		cursor: default;
+	}
+
+	.hover-underline-animation {
+		display: inline-block;
+		position: relative;
 		color: #000428;
+	}
+	
+	.hover-underline-animation::after {
+		content: '';
+		position: absolute;
+		width: 100%;
+		transform: scaleX(0);
+		height: 3px;
+		bottom: -5px;
+		left: 0;
+		background-color: #000428;
+		transform-origin: bottom right;
+		transition: transform 0.5s ease-out;
+	}
+	
+	.hover-underline-animation:hover::after {
+		transform: scaleX(1);
+		transform-origin: bottom left;
+	}
 
-		::selection {
-			background: #000428;
-			color: #ffffff;
-		}
-
-		h2 {
-			font-weight: 600;
-			cursor: default;
-		}
-
-		.hover-underline-animation {
-			display: inline-block;
-			position: relative;
-			color: #000428;
-		}
-		
-		.hover-underline-animation::after {
-			content: '';
-			position: absolute;
-			width: 100%;
-			transform: scaleX(0);
-			height: 3px;
-			bottom: -5px;
-			left: 0;
-			background-color: #000428;
-			transform-origin: bottom right;
-			transition: transform 0.5s ease-out;
-		}
-		
-		.hover-underline-animation:hover::after {
-			transform: scaleX(1);
-			transform-origin: bottom left;
-		}
-
-		p {
-			color: rgba(0,4,40, 0.7);
-		}
-		
-		.paragraph-highlights {
-			color: #000428;
-			font-weight: 500;
-			text-decoration: none;
-		}
-		
-		li.hover-underline-animation::after, a.hover-underline-animation::after {
-			height: 2px;
-			bottom: -1px;
-		}
+	p {
+		color: rgba(0,4,40, 0.7);
+	}
+	
+	.paragraph-highlights {
+		color: #000428;
+		font-weight: 500;
+		text-decoration: none;
+	}
+	
+	li.hover-underline-animation::after, a.hover-underline-animation::after {
+		height: 2px;
+		bottom: -1px;
 	}
 }
 
