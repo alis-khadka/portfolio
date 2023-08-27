@@ -72,6 +72,10 @@
 		.links-container {
 			display: flex;
 			flex-direction: column;
+			left: 0;
+			right: 0;
+			justify-content: center;
+			align-items: center;
 		}
 	}
 }
@@ -89,6 +93,18 @@
 
 		.btn {
 			width: 70%;
+		}
+	}
+}
+
+@media (max-width: 399.98px) {
+	.fixed-container {
+		.introduction-text {
+			font-size: 14px;
+		}
+
+		.links-container {
+			bottom: 20px;
 		}
 	}
 }

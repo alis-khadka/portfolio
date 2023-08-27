@@ -16,7 +16,7 @@ const githubLink = "https://github.com/alis-khadka";
 function SocialLinks() {
 	return (
     <>
-      <div className='social-links-container d-flex flex-row gap-3'>
+      <div className='social-links-container d-flex flex-row'>
         <a className='social-link' href={emailAddress} target='_blank' rel='noreferrer'>
           <FontAwesomeIcon icon={faEnvelope} />
         </a>
@@ -30,8 +30,8 @@ function SocialLinks() {
           <FontAwesomeIcon icon={faGithub} />
         </a>
         </div>
-      <div className='cv-link'>
-        <a className='social-link' href={cv} target='_blank' rel='noreferrer'>
+      <div className='cv-link mt-2'>
+        <a className='hover-underline-animation' href={cv} target='_blank' rel='noreferrer'>
           Resume
         </a>
       </div>

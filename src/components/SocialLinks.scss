@@ -1,0 +1,23 @@
+.social-links-container {
+  gap: 20px;
+
+  .social-link {
+    font-size: 20px;
+    transition: transform 0.25s ease-in-out;
+  }
+
+  .social-link:hover {
+    transform: scale(1.25);
+  }
+}
+
+.cv-link {
+  a {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  a.hover-underline-animation::after {
+    height: 1px;
+  }
+}
