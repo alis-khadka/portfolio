@@ -6,6 +6,7 @@ import ProjectItem from './ProjectItem';
 import Brandguarde from './../images/Brandguarde.png';
 import CopperCRM from './../images/CopperCRM.png';
 import OhoEcommerce from './../images/OhoEcommerce.png';
+import RestaroneDesign from './../images/RestaroneDesign.png';
 import Trip101 from './../images/Trip101.png';
 import VioletRails from './../images/VioletRails.png';
 
@@ -51,6 +52,21 @@ const projectsDetail = [
 			'Jasmine'
 		],
 		liveLink: "https://www.copper.com/"
+	},
+	{
+		image: RestaroneDesign, 
+		name: "Restarone's Page Design",
+		description: "This was a part of assessment from Restarone Solutions Inc. to implement the design of its 'about' page.",
+		responsibilities: [
+			"Implement the provided design of the about page of restarone.com"
+		],
+		techStacks: [
+			'HTML',
+			'CSS',
+			'vanillaJS'
+		],
+		liveLink: "https://restarone-design.vercel.app/",
+		githubLink: "https://github.com/alis-khadka/Restarone-Design"
 	},
 	{
 		image: Trip101, 
