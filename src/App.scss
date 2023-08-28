@@ -38,14 +38,45 @@ body {
   border: 2px solid rgba(255, 255, 255, 1);
 }
 
+.contact-button {
+  animation: button;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes button {
+  0% {
+    opacity: 0;
+    transform: translateX(200px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
 .links-container {
   position: absolute;
   bottom: 3.5rem;
   left: 3rem;
+  animation: links;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
 
   a {
     color: #FFFFFF;
     text-decoration: none;
+  }
+}
+
+@keyframes links {
+  0% {
+    opacity: 0;
+    transform: translateY(200px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
@@ -61,5 +92,20 @@ body {
 
   .links-lg-container {
     display: none;
+  }
+}
+
+.self-image {
+  animation: image;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes image {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }

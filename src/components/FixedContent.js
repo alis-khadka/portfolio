@@ -10,10 +10,10 @@ function FixedContent(props) {
 
 	return (
 		<div className='fixed-container d-flex flex-column justify-content-center px-5'>
-			<img src={headshot} alt='Prashant pic' />
+			<img src={headshot} alt='Prashant pic' className='self-image' />
 			<h1 className='mb-5'>Hi. I'm a Software Engineer.</h1>
 			<div className='introduction-text'>My name's Prashant Khadka and I craft robust and scalable web applications using modern web technologies.</div>
-			<button type='button' className='btn mt-5 d-lg-none' onClick={handleClick}>Let's work together</button>
+			<button type='button' className='contact-button btn mt-5 d-lg-none' onClick={handleClick}>Let's work together</button>
 			<div className='links-container'>
 				<SocialLinks />
 			</div>

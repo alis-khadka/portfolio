@@ -23,6 +23,20 @@
     position: absolute;
     transition: background-color 0.2s linear;
     border-radius: 10px;
+    animation: burger-menu;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes burger-menu {
+    0% {
+      opacity: 0;
+      transform: translateX(-200px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
   }
 
   .button-container:hover {

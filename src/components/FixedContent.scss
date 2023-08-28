@@ -14,10 +14,39 @@
 		font-weight: 900;
 		font-family: Poppins, sans-serif;
 		line-height: 1.3;
+		animation: fixed-heading;
+		animation-duration: 1.5s;
+		animation-fill-mode: forwards;
 	}
+
+	@keyframes fixed-heading {
+		0% {
+			opacity: 0;
+			transform: translateX(200px);
+			
+		}
+		100% {
+			opacity: 1;
+			transform: translateX(0);
+		}
+	  }
 
 	.introduction-text {
 		margin-bottom: 5rem;
+		animation: intro-text;
+		animation-duration: 2.5s;
+		animation-fill-mode: forwards;
+	}
+
+	@keyframes intro-text {
+		0% {
+			opacity: 0;
+			transform: translateX(200px);
+		}
+		100% {
+			opacity: 1;
+			transform: translateX(0);
+		}
 	}
 
 	.btn {

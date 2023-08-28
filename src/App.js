@@ -30,7 +30,7 @@ function App() {
 			skillsRef={skillsRef}
 			/>
 
-			<button type='button' className='btn px-5 contact-lg-btn' onClick={handleClick}>Let's work together</button>
+			<button type='button' className='contact-button btn px-5 contact-lg-btn' onClick={handleClick}>Let's work together</button>
 
 			<div className='links-container links-lg-container'>
 				<SocialLinks />
