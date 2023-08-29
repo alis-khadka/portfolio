@@ -15,13 +15,13 @@ const projectsDetail = [
 	{
 		image: VioletRails, 
 		name: 'Violet Rails',
-		description: "An open source web engine powered by Ruby & javascript stack which provides out of the box support for Automation, CMS, blog, forum and email.",
+		description: "An <strong>open source</strong> web engine powered by Ruby & javascript stack which provides out of the box support for Automation, CMS, blog, forum and email.",
 		responsibilities: [
-			"Develop and maintain CI/CD pipeline",
-			"Implement recaptcha v2 and v3 in its API Data Pipeline",
-			"Rectify in‐house email system’s threading logic by aligning it with Gmail and GitHub standards",
-			"Reduce Analytics page's load time by optimizing database queries and reducing memory object allocations",
-			"Technical scoping, time estimation, and development of an e-commerce project by integrating Printify's API"
+			"Develop and maintain CI/CD pipeline. <a class=\"inline-links\" href=\"https://github.com/restarone/violet_rails/pull/624\" target='_blank' rel='noreferrer'>PR Link 1</a>, <a class=\"inline-links\" href=\"https://github.com/restarone/violet_rails/pull/1157\" target='_blank' rel='noreferrer'>PR Link 2</a>",
+			"Implement recaptcha v2 and v3 in its API Data Pipeline. <a class=\"inline-links\" href=\"https://github.com/restarone/violet_rails/pull/702\" target='_blank' rel='noreferrer'>Link 1</a>, <a class=\"inline-links\" href=\"https://github.com/restarone/violet_rails/pull/992\" target='_blank' rel='noreferrer'>Link 2</a>",
+			"Rectify in‐house email system’s threading logic by aligning it with Gmail and GitHub standards. <a class=\"inline-links\" href=\"https://github.com/restarone/violet_rails/pull/1295\" target='_blank' rel='noreferrer'>PR Link</a>",
+			"Reduce Analytics page's load time by optimizing database queries and reducing memory object allocations. <a class=\"inline-links\" href=\"https://github.com/restarone/violet_rails/pull/1418\" target='_blank' rel='noreferrer'>PR Link</a>",
+			"Technical scoping, time estimation, and development of an e-commerce project by integrating Printify's API. <a class=\"inline-links\" href=\" https://github.com/restarone/violet_rails/pull/1557\" target='_blank' rel='noreferrer'>PR Link</a>"
 		],
 		techStacks: [
 			'Ruby on Rails',
@@ -44,29 +44,6 @@ const projectsDetail = [
 		githubLinks: [
 			{
 				link: "https://github.com/restarone/violet_rails"
-			}
-		]
-	},
-	{
-		image: RestaroneDesign, 
-		name: "Restarone's Page Design",
-		description: "This was a part of assessment from Restarone Solutions Inc. to implement the design of its 'about' page.",
-		responsibilities: [
-			"Implement the provided design of the about page of restarone.com"
-		],
-		techStacks: [
-			'HTML',
-			'CSS',
-			'vanillaJS'
-		],
-		liveLinks: [
-			{
-				link: "https://restarone-design.vercel.app/"
-			}
-		],
-		githubLinks: [
-			{
-				link: "https://github.com/alis-khadka/Restarone-Design"
 			}
 		]
 	},
@@ -106,6 +83,29 @@ const projectsDetail = [
 			{
 				link: "https://github.com/alis-khadka/spotify-graphql-server",
 				label: 'Server Code'
+			}
+		]
+	},
+	{
+		image: RestaroneDesign, 
+		name: "Restarone's Page Design",
+		description: "This was a part of assessment from Restarone Solutions Inc. to implement the design of its <strong>about</strong> page.",
+		responsibilities: [
+			"Implement the provided design of the about page of restarone.com"
+		],
+		techStacks: [
+			'HTML',
+			'CSS',
+			'vanillaJS'
+		],
+		liveLinks: [
+			{
+				link: "https://restarone-design.vercel.app/"
+			}
+		],
+		githubLinks: [
+			{
+				link: "https://github.com/alis-khadka/Restarone-Design"
 			}
 		]
 	},
