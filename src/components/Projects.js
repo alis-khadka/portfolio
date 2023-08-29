@@ -7,6 +7,7 @@ import Brandguarde from './../images/Brandguarde.png';
 import CopperCRM from './../images/CopperCRM.png';
 import OhoEcommerce from './../images/OhoEcommerce.png';
 import RestaroneDesign from './../images/RestaroneDesign.png';
+import SpotifySearch from './../images/SpotifySearch.png';
 import Trip101 from './../images/Trip101.png';
 import VioletRails from './../images/VioletRails.png';
 
@@ -69,6 +70,27 @@ const projectsDetail = [
 		githubLink: "https://github.com/alis-khadka/Restarone-Design"
 	},
 	{
+		image: SpotifySearch, 
+		name: "Spotify Search",
+		description: "A client side project that displays the search results from Spotify's API using spotify-graphql-server. The spotify-graphql-server was forked to add some extra search functionality.",
+		responsibilities: [
+			"Add extra functionality to search by Playlist's name and by Playlist's id in spotify-graphql-server",
+			"Design and develop the client side from scratch using NextJS and ant design"
+		],
+		techStacks: [
+			'NextJS',
+			'HTML',
+			'CSS',
+			'Ant Design',
+			'GraphQL',
+			'NodeJS',
+			'API Integration',
+			'Jest'
+		],
+		liveLink: "https://spotify-graphql-client.vercel.app/",
+		githubLink: "https://github.com/alis-khadka/spotify-graphql-client"
+	},
+	{
 		image: Trip101, 
 		name: 'Trip101',
 		description: "Trip101 is tourism-centric website that presents articles catered to travelers worldwide, offering insightful suggestions on exciting activities and a wide selection of accommodation properties.",
@@ -85,6 +107,7 @@ const projectsDetail = [
 			'vanillaJS',
 			'Angular 2+',
 			'React.js',
+			'API Integration',
 			'Rspec',
 			'Jasmine',
 			'Jest'
