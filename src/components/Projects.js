@@ -48,25 +48,6 @@ const projectsDetail = [
 		]
 	},
 	{
-		image: CopperCRM, 
-		name: 'Copper CRM',
-		description: "A CRM application that provides integration with Google Workspace and helps clients to cultivate enduring relationships with clients.",
-		responsibilities: [
-			"Technical scoping, time estimation, and development of \"Pipeline\" entity's creation-template pages",
-			"Develop new features and pages for user's onboarding"
-		],
-		techStacks: [
-			'Ruby on Rails',
-			'EmberJS',
-			'Jasmine'
-		],
-		liveLinks: [
-			{
-				link: "https://www.copper.com/"
-			}
-		]
-	},
-	{
 		image: RestaroneDesign, 
 		name: "Restarone's Page Design",
 		description: "This was a part of assessment from Restarone Solutions Inc. to implement the design of its 'about' page.",
@@ -125,6 +106,25 @@ const projectsDetail = [
 			{
 				link: "https://github.com/alis-khadka/spotify-graphql-server",
 				label: 'Server Code'
+			}
+		]
+	},
+	{
+		image: CopperCRM, 
+		name: 'Copper CRM',
+		description: "A CRM application that provides integration with Google Workspace and helps clients to cultivate enduring relationships with clients.",
+		responsibilities: [
+			"Technical scoping, time estimation, and development of \"Pipeline\" entity's creation-template pages",
+			"Develop new features and pages for user's onboarding"
+		],
+		techStacks: [
+			'Ruby on Rails',
+			'EmberJS',
+			'Jasmine'
+		],
+		liveLinks: [
+			{
+				link: "https://www.copper.com/"
 			}
 		]
 	},
