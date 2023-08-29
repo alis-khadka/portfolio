@@ -82,9 +82,11 @@
 			display: inline;
 		}
 
-		.card-text > .hover-underline-animation::after {
-			height: 1px;
-			bottom: 1px;
+		.card-text {
+			.hover-underline-animation::after {
+				height: 1px;
+				bottom: 1px;
+			}
 		}
 
 		ul {
@@ -185,4 +187,9 @@
 
 .text-left {
 	text-align: left;
+}
+
+.inline-links {
+	font-weight: 600;
+	color: rgba(0, 4, 40, 1);
 }
