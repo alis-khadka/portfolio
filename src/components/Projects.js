@@ -36,8 +36,16 @@ const projectsDetail = [
 			'API Integrations',
 			'Minitest'
 		],
-		liveLink: "https://violet.restarone.solutions/",
-		githubLink: "https://github.com/restarone/violet_rails"
+		liveLinks: [
+			{
+				link: "https://violet.restarone.solutions/"
+			}
+		],
+		githubLinks: [
+			{
+				link: "https://github.com/restarone/violet_rails"
+			}
+		]
 	},
 	{
 		image: CopperCRM, 
@@ -52,7 +60,11 @@ const projectsDetail = [
 			'EmberJS',
 			'Jasmine'
 		],
-		liveLink: "https://www.copper.com/"
+		liveLinks: [
+			{
+				link: "https://www.copper.com/"
+			}
+		]
 	},
 	{
 		image: RestaroneDesign, 
@@ -66,13 +78,21 @@ const projectsDetail = [
 			'CSS',
 			'vanillaJS'
 		],
-		liveLink: "https://restarone-design.vercel.app/",
-		githubLink: "https://github.com/alis-khadka/Restarone-Design"
+		liveLinks: [
+			{
+				link: "https://restarone-design.vercel.app/"
+			}
+		],
+		githubLinks: [
+			{
+				link: "https://github.com/alis-khadka/Restarone-Design"
+			}
+		]
 	},
 	{
 		image: SpotifySearch, 
 		name: "Spotify Search",
-		description: "A client side project that displays the search results from Spotify's API using spotify-graphql-server. The spotify-graphql-server was forked to add some extra search functionality.",
+		description: "An application that displays the search results from Spotify's API using spotify-graphql-server. The spotify-graphql-server was forked to add some extra search functionality.",
 		responsibilities: [
 			"Add extra functionality to search by Playlist's name and by Playlist's id in spotify-graphql-server",
 			"Design and develop the client side from scratch using NextJS and ant design"
@@ -87,8 +107,26 @@ const projectsDetail = [
 			'API Integration',
 			'Jest'
 		],
-		liveLink: "https://spotify-graphql-client.vercel.app/",
-		githubLink: "https://github.com/alis-khadka/spotify-graphql-client"
+		liveLinks: [
+			{
+				link: "https://spotify-graphql-client.vercel.app/",
+				label: 'Client Live'
+			},
+			{
+				link: "https://spotify-graphql-server.fly.dev/",
+				label: 'Server Live'
+			}
+		],
+		githubLinks: [
+			{
+				link: "https://github.com/alis-khadka/spotify-graphql-client",
+				label: 'Client Code'
+			},
+			{
+				link: "https://github.com/alis-khadka/spotify-graphql-server",
+				label: 'Server Code'
+			}
+		]
 	},
 	{
 		image: Trip101, 
@@ -112,7 +150,11 @@ const projectsDetail = [
 			'Jasmine',
 			'Jest'
 		],
-		liveLink: "https://trip101.com/"
+		liveLinks: [
+			{
+				link: "https://trip101.com/"
+			}
+		]
 	},
 	{
 		image: OhoEcommerce, 
@@ -130,7 +172,11 @@ const projectsDetail = [
 			'Elasticsearch',
 			'Rspec'
 		],
-		liveLink: "https://oho.bajratechnologies.com/service/mall"
+		liveLinks: [
+			{
+				link: "https://oho.bajratechnologies.com/service/mall"
+			}
+		]
 	},
 	{
 		image: Brandguarde, 
@@ -146,7 +192,11 @@ const projectsDetail = [
 			'Angular 2+',
 			'Rspec'
 		],
-		liveLink: "https://www.brandguarde.com/"
+		liveLinks: [
+			{
+				link: "https://www.brandguarde.com/"
+			}
+		]
 	}
   ]
   

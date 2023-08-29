@@ -15,7 +15,7 @@ function ProjectItem(props) {
                     <p className='card-text text-left mb-0'><span className='hover-underline-animation'>Responsibilities:</span></p>
                     <ul>
                         {project.responsibilities.map((responsibility, index) => {
-                            return <li key={index}>{responsibility}</li>
+                            return <li key={index} dangerouslySetInnerHTML={{__html: responsibility}}></li>
                         })}
                     </ul>
                     <div className='tech-stacks text-left'>
@@ -25,12 +25,20 @@ function ProjectItem(props) {
                     </div>
                     <div className='project-links d-flex flex-row'>
                         {
-                            project.githubLink &&
-                            <a className='hover-underline-animation' href={project.githubLink} target='_blank' rel='noreferrer'>View Code&nbsp;<FontAwesomeIcon icon={faGithub} /></a>
+                            project.githubLinks &&
+                            (
+                                project.githubLinks.map((item, index) => {
+                                    return <a className='hover-underline-animation' href={item.link} target='_blank' rel='noreferrer'>{item.label || 'View Code'}&nbsp;<FontAwesomeIcon icon={faGithub} /></a>
+                                }) 
+                            )
                         }
                         {
-                            project.liveLink &&
-                            <a className='hover-underline-animation' href={project.liveLink} target='_blank' rel='noreferrer'>View Live&nbsp;<FontAwesomeIcon icon={faLink} /></a>
+                            project.liveLinks &&
+                            (
+                                project.liveLinks.map((item, index) => {
+                                    return <a className='hover-underline-animation' href={item.link} target='_blank' rel='noreferrer'>{item.label || 'View Code'}&nbsp;<FontAwesomeIcon icon={faLink} /></a>
+                                }) 
+                            )
                         }
                     </div>
                 </div>
