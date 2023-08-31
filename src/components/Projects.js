@@ -6,6 +6,7 @@ import ProjectItem from './ProjectItem';
 import Brandguarde from './../images/Brandguarde.png';
 import CopperCRM from './../images/CopperCRM.png';
 import OhoEcommerce from './../images/OhoEcommerce.png';
+import PlanAnalytics from './../images/PlanAnalytics.png';
 import RestaroneDesign from './../images/RestaroneDesign.png';
 import SpotifySearch from './../images/SpotifySearch.png';
 import Trip101 from './../images/Trip101.png';
@@ -18,10 +19,10 @@ const projectsDetail = [
 		description: "An <strong>open source</strong> web engine powered by Ruby & javascript stack which provides out of the box support for Automation, CMS, blog, forum and email.",
 		responsibilities: [
 			"Develop and maintain CI/CD pipeline. <a class=\"inline-links\" href=\"https://github.com/restarone/violet_rails/pull/624\" target='_blank' rel='noreferrer'>PR Link 1</a>, <a class=\"inline-links\" href=\"https://github.com/restarone/violet_rails/pull/1157\" target='_blank' rel='noreferrer'>PR Link 2</a>",
-			"Implement recaptcha v2 and v3 in its API Data Pipeline. <a class=\"inline-links\" href=\"https://github.com/restarone/violet_rails/pull/702\" target='_blank' rel='noreferrer'>Link 1</a>, <a class=\"inline-links\" href=\"https://github.com/restarone/violet_rails/pull/992\" target='_blank' rel='noreferrer'>Link 2</a>",
 			"Rectify in‐house email system’s threading logic by aligning it with Gmail and GitHub standards. <a class=\"inline-links\" href=\"https://github.com/restarone/violet_rails/pull/1295\" target='_blank' rel='noreferrer'>PR Link</a>",
 			"Reduce Analytics page's load time by optimizing database queries and reducing memory object allocations. <a class=\"inline-links\" href=\"https://github.com/restarone/violet_rails/pull/1418\" target='_blank' rel='noreferrer'>PR Link</a>",
-			"Technical scoping, time estimation, and development of an e-commerce project by integrating Printify's API. <a class=\"inline-links\" href=\" https://github.com/restarone/violet_rails/pull/1557\" target='_blank' rel='noreferrer'>PR Link</a>"
+			"Technical scoping, time estimation, and development of an e-commerce project by integrating Printify's API. <a class=\"inline-links\" href=\" https://github.com/restarone/violet_rails/pull/1557\" target='_blank' rel='noreferrer'>PR Link</a>",
+			"<a class=\"inline-links\" href=\"https://github.com/restarone/violet_rails/pulls?q=is%3Apr+author%3Aalis-khadka+is%3Amerged+\" target='_blank' rel='noreferrer'>Merged PRs</a>, <a class=\"inline-links\" href=\"https://github.com/restarone/violet_rails/issues?q=is%3Aissue+author%3Aalis-khadka+\" target='_blank' rel='noreferrer'>Issues, Root Cause Analysis(RCA) of events, and Documentations</a>"
 		],
 		techStacks: [
 			'Ruby on Rails',
@@ -89,7 +90,7 @@ const projectsDetail = [
 	{
 		image: RestaroneDesign, 
 		name: "Restarone's Page Design",
-		description: "This was a part of assessment from Restarone Solutions Inc. to implement the design of its <strong>about</strong> page.",
+		description: "This was a part of assessment from Restarone Solutions Inc. to implement the design of its <a class=\"inline-links\" href=\"https://restarone.com/about\" target='_blank' rel='noreferrer'>about</a> page.",
 		responsibilities: [
 			"Implement the provided design of the about page of restarone.com"
 		],
@@ -153,6 +154,24 @@ const projectsDetail = [
 		liveLinks: [
 			{
 				link: "https://trip101.com/"
+			}
+		]
+	},
+	{
+		image: PlanAnalytics, 
+		name: 'Plan Analytics',
+		description: "Plan Analytics is an application that provides insights on healthcare related data.",
+		responsibilities: [
+			"Develop a SQL stored procedure to delete 30+ million old records that efficiently extracted and deleted such records in small batches.",
+			"Debug and fix session related issue after integration of Central Authentication Service(CAS) with its project management platform, forked from <a class=\"inline-links\" href=\"https://www.redmine.org/\" target='_blank' rel='noreferrer'>Redmine</a>."
+		],
+		techStacks: [
+			'Ruby on Rails',
+			'SQL'
+		],
+		liveLinks: [
+			{
+				link: "https://www.cedargate.com/healthcare-benefits-analytics/"
 			}
 		]
 	},
