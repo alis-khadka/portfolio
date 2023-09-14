@@ -31,7 +31,7 @@ function SocialLinks() {
         </a>
         </div>
       <div className='cv-link mt-2'>
-        <a className='hover-underline-animation' href={cv} target='_blank' rel='noreferrer'>
+        <a className='hover-underline-animation' href="/resume" target='_blank' rel='noreferrer'>
           Resume
         </a>
       </div>
