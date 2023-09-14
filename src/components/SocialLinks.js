@@ -6,7 +6,6 @@ import {
   faInstagram,
 } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
-import cv from './../Prashant-CV.pdf';
 
 const emailAddress = "mailto:prashant.khadka052@gmail.com";
 const linkedInUrl = "https://www.linkedin.com/in/prashant-khadka-650a3a136/";
