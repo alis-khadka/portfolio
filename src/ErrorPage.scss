@@ -1,0 +1,39 @@
+#error-page {
+  color: rgba(0, 4, 40, 1);
+
+  h1 {
+    font-weight: 900;
+    font-size: 100px;
+  }
+
+  .error-name {
+    font-weight: 700;
+    font-size: 30px;
+  }
+
+  .error-message {
+    max-width: 600px;
+  }
+
+  .home-btn {
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(0, 4, 40, 1);
+    letter-spacing: 1px;
+    line-height: 1.4;
+    height: 50px;
+    border: 2px solid rgba(0, 4, 40, 1);
+    border-radius: 40px;
+    background: transparent;
+    transition: all 0.3s ease 0s;
+    max-width: 250px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .home-btn:hover {
+    color: #FFFFFF;
+    background: rgba(0, 4, 40, 1);
+    border: 2px solid rgba(0, 4, 40, 1);
+  }
+}
