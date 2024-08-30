@@ -4,6 +4,7 @@ import ProjectItem from './ProjectItem';
 
 // Project Details
 import Brandguarde from './../images/Brandguarde.png';
+import BrBytes from './../images/BrBytes.png';
 import CopperCRM from './../images/CopperCRM.png';
 import OhoEcommerce from './../images/OhoEcommerce.png';
 import PlanAnalytics from './../images/PlanAnalytics.png';
@@ -13,6 +14,33 @@ import Trip101 from './../images/Trip101.png';
 import VioletRails from './../images/VioletRails.png';
 
 const projectsDetail = [
+	{
+		image: BrBytes, 
+		name: 'BrBytes',
+		description: `
+					<strong>BRBYTES:</strong> <strong>B</strong>uilding <strong>R</strong>esearch to <strong>B</strong>oost <strong>Y</strong>outh <strong>T</strong>echnology <strong>E</strong>ducation and <strong>S</strong>kills
+					<br>A partnership between <a class='hover-underline-animation text-decoration-none' href='https://ebrschools.org/about/' target='_blank' rel='noreferrer'><strong>East Baton Rouge Parish School System (EBRPSS)</strong></a> and <a class='hover-underline-animation text-decoration-none' href='https://www.lsu.edu/' target='_blank' rel='noreferrer'><strong>Louisiana State University (LSU)</strong></a> dedicated to creating and implementing
+					a 7-12th grade computer science pathway and training new CS teachers.
+				`,
+		responsibilities: [
+			"Implement new design for the BrBytes' website in accordance with WCAG compliance.",
+			"Shell script to create the production build of the website.",
+			"Implement new features, API endpoints, and design for BrBytes' teacher portal.",
+			"Mentor and onboard two undergraduate students in the BrBytes project.",
+			"Review pull requests."
+		],
+		techStacks: [
+			'HTML',
+			'Bootstrap',
+			'Alpine.js',
+			'dhall'
+		],
+		liveLinks: [
+			{
+				link: "https://www.brbytes.org/"
+			}
+		]
+	},
 	{
 		image: VioletRails, 
 		name: 'Violet Rails',
