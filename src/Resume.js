@@ -4,7 +4,7 @@ import './Resume.scss';
 
 import { Worker, Viewer } from '@react-pdf-viewer/core';
 import { defaultLayoutPlugin } from '@react-pdf-viewer/default-layout';
-import cv from './Prashant-CV.pdf';
+import resume from './Resume.pdf';
 
 function Resume() {
 	const defaultLayoutPluginInstance = defaultLayoutPlugin();
@@ -13,7 +13,7 @@ function Resume() {
 		<div className='resume-wrapper'>
 			<Worker workerUrl='https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js'>
 				<Viewer
-					fileUrl={cv}
+					fileUrl={resume}
 					plugins={[defaultLayoutPluginInstance]}
 					theme='dark'
 					defaultScale={1.5}
