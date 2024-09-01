@@ -20,33 +20,6 @@ import VioletRails from './../images/VioletRails.png';
 
 const projectsDetail = [
 	{
-		image: BrBytes, 
-		name: 'BrBytes',
-		description: `
-					<strong>BRBYTES:</strong> <strong>B</strong>uilding <strong>R</strong>esearch to <strong>B</strong>oost <strong>Y</strong>outh <strong>T</strong>echnology <strong>E</strong>ducation and <strong>S</strong>kills
-					<br>A partnership between <a class='hover-underline-animation text-decoration-none' href='https://ebrschools.org/about/' target='_blank' rel='noreferrer'><strong>EBRPSS</strong></a> and <a class='hover-underline-animation text-decoration-none' href='https://www.lsu.edu/' target='_blank' rel='noreferrer'><strong>Louisiana State University</strong></a> dedicated to creating and implementing
-					a 7-12th grade computer science pathway and training new CS teachers.
-				`,
-		responsibilities: [
-			"Implement new design for the BrBytes' website in accordance with WCAG compliance.",
-			"Shell script to create the production build of the website.",
-			"Implement new features, API endpoints, and design for BrBytes' teacher portal.",
-			"Mentor and onboard two undergraduate students in the BrBytes project.",
-			"Review pull requests."
-		],
-		techStacks: [
-			'HTML',
-			'Bootstrap',
-			'Alpine.js',
-			'dhall'
-		],
-		liveLinks: [
-			{
-				link: "https://www.brbytes.org/"
-			}
-		]
-	},
-	{
 		image: VioletRails, 
 		name: 'Violet Rails',
 		description: "An <strong>open source</strong> web engine powered by Ruby & javascript stack which provides out of the box support for Automation, CMS, blog, forum and email.",
@@ -78,6 +51,33 @@ const projectsDetail = [
 		githubLinks: [
 			{
 				link: "https://github.com/restarone/violet_rails"
+			}
+		]
+	},
+	{
+		image: BrBytes, 
+		name: 'BrBytes',
+		description: `
+					<strong>BRBYTES:</strong> <strong>B</strong>uilding <strong>R</strong>esearch to <strong>B</strong>oost <strong>Y</strong>outh <strong>T</strong>echnology <strong>E</strong>ducation and <strong>S</strong>kills
+					<br>A partnership between <a class='hover-underline-animation text-decoration-none' href='https://ebrschools.org/about/' target='_blank' rel='noreferrer'><strong>EBRPSS</strong></a> and <a class='hover-underline-animation text-decoration-none' href='https://www.lsu.edu/' target='_blank' rel='noreferrer'><strong>Louisiana State University</strong></a> dedicated to creating and implementing
+					a 7-12th grade computer science pathway and training new CS teachers.
+				`,
+		responsibilities: [
+			"Implement new design for the BrBytes' website in accordance with WCAG compliance.",
+			"Shell script to create the production build of the website.",
+			"Implement new features, API endpoints, and design for BrBytes' teacher portal.",
+			"Mentor and onboard two undergraduate students in the BrBytes project.",
+			"Review pull requests."
+		],
+		techStacks: [
+			'HTML',
+			'Bootstrap',
+			'Alpine.js',
+			'dhall'
+		],
+		liveLinks: [
+			{
+				link: "https://www.brbytes.org/"
 			}
 		]
 	},
