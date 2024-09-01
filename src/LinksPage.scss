@@ -61,3 +61,20 @@
         top: 0;
     }
 }
+@media (max-width: 991px) {
+    .links-page-container {
+        .link-btn {
+            width: 90%;
+        }
+    }
+}
+
+@media (max-width: 454px) {
+    .links-page-container {
+        .link-btn {
+            font-size: 16px !important;
+            font-weight: normal;
+            padding-top: 8px;
+        }
+    }
+}
