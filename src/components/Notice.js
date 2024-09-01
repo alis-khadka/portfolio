@@ -4,7 +4,7 @@ import TypeIt from "typeit-react";
 
 function Notice(props) {
     return (
-        <p class="notice">
+        <p className="notice">
             I'm looking for <span className='fw-bold fs-5 hover-underline-animation'>Software Engineering Intern</span> role!!!
             <br />
             <TypeIt
