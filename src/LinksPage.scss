@@ -1,0 +1,63 @@
+.links-page-container {
+    position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+    width: 100%;
+    background: #000428;
+    letter-spacing: 1px;
+    line-height: 1.4;
+    
+    .link-btn {
+        background: transparent;
+        color: #FFFFFF;
+        border: 2px solid #FFFFFF;
+        border-radius: 40px;
+        width: 30%;
+        height: 50px;
+        transition: all 0.3s ease 0s;
+        animation: link-btn;
+        animation-duration: 2s;
+        animation-fill-mode: backwards;
+        font-weight: bolder;
+    }
+
+    .two {
+        animation-duration: 2s;
+    }
+
+    .three {
+        animation-duration: 2.4s;
+    }
+
+    .four {
+        animation-duration: 2.8s;
+    }
+
+    .five {
+        animation-duration: 3.2s;
+    }
+
+    @keyframes link-btn {
+        0% {
+          opacity: 0;
+          transform: translateX(200px);
+        }
+        100% {
+          opacity: 1;
+          transform: translateX(0);
+        }
+    }
+
+    .link-btn:hover {
+		color: rgba(0, 4, 40, 1);
+		background: rgba(255, 255, 255, 1);
+		border: 2px solid rgba(255, 255, 255, 1);
+	}
+
+    .link-logo {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+}

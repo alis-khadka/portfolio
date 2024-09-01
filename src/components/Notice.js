@@ -2,7 +2,7 @@ import './Notice.scss';
 
 import TypeIt from "typeit-react";
 
-function Notice(props) {
+function Notice() {
     return (
         <p className="notice">
             I'm looking for <span className='fw-bold fs-5 hover-underline-animation'>Software Engineering Intern</span> role!!!

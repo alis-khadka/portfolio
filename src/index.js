@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import './index.scss';
 import App from './App';
+import LinksPage from './LinksPage';
 import Resume from './Resume';
 import reportWebVitals from './reportWebVitals';
 import { Analytics } from '@vercel/analytics/react';
@@ -21,6 +22,11 @@ const router = createBrowserRouter([
   {
     path: "/resume",
     element: <Resume />,
+    errorElement: <ErrorPage />
+  },
+  {
+    path: "/links",
+    element: <LinksPage />,
     errorElement: <ErrorPage />
   },
 ]);
