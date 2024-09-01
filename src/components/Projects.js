@@ -1,6 +1,11 @@
 import './Projects.scss';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 import ProjectItem from './ProjectItem';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Mousewheel, Keyboard } from 'swiper/modules';
 
 // Project Details
 import Brandguarde from './../images/Brandguarde.png';
@@ -19,7 +24,7 @@ const projectsDetail = [
 		name: 'BrBytes',
 		description: `
 					<strong>BRBYTES:</strong> <strong>B</strong>uilding <strong>R</strong>esearch to <strong>B</strong>oost <strong>Y</strong>outh <strong>T</strong>echnology <strong>E</strong>ducation and <strong>S</strong>kills
-					<br>A partnership between <a class='hover-underline-animation text-decoration-none' href='https://ebrschools.org/about/' target='_blank' rel='noreferrer'><strong>East Baton Rouge Parish School System (EBRPSS)</strong></a> and <a class='hover-underline-animation text-decoration-none' href='https://www.lsu.edu/' target='_blank' rel='noreferrer'><strong>Louisiana State University (LSU)</strong></a> dedicated to creating and implementing
+					<br>A partnership between <a class='hover-underline-animation text-decoration-none' href='https://ebrschools.org/about/' target='_blank' rel='noreferrer'><strong>EBRPSS</strong></a> and <a class='hover-underline-animation text-decoration-none' href='https://www.lsu.edu/' target='_blank' rel='noreferrer'><strong>Louisiana State University</strong></a> dedicated to creating and implementing
 					a 7-12th grade computer science pathway and training new CS teachers.
 				`,
 		responsibilities: [
@@ -250,7 +255,7 @@ const projectsDetail = [
 
 function Projects() {
 	return (
-		<section id='projects-content' className='scroll-item p-5 d-flex flex-column'>
+		<section id='projects-content' className='scroll-item px-3 px-sm-5 py-5 d-flex flex-column'>
 			<h2 className='section-heading'>
 				<span className='hover-underline-animation'>
 					Projects
@@ -258,13 +263,21 @@ function Projects() {
 			</h2>
 
 			<div className='d-flex justify-content-center align-items-center flex-auto'>
-				<div className="slider">
-					<div className="slides">
-						{projectsDetail.map((data, index) => {
-							return <ProjectItem projectData={data} key={index} />
-						})}
-					</div>
-				</div>
+				<Swiper
+					cssMode={true}
+					navigation={true}
+					pagination={true}
+					mousewheel={true}
+					keyboard={true}
+					rewind={true}
+					modules={[Navigation, Pagination, Mousewheel, Keyboard]}
+					spaceBetween={50}
+					slidesPerView={1}
+				>
+					{projectsDetail.map((data, index) => {
+						return <SwiperSlide key={index} ><ProjectItem projectData={data} /></SwiperSlide>
+					})}
+				</Swiper>
 			</div>
 		</section>
 	);

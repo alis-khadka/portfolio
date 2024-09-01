@@ -8,12 +8,12 @@ function ProjectItem(props) {
 	return (
         <div className='slide-item'>
             <div className="card">
-                <img className="card-img-top" src={project.image} alt="Card cap" />
-                <div className="card-body d-flex flex-column pt-0">
+                <img className="card-img-top px-3" src={project.image} alt="Card cap" />
+                <div className="card-body d-flex flex-column pt-0 px-5">
                     <h5 className='card-title fw-bold'><span className=' hover-underline-animation'>{project.name}</span></h5>
                     <p className='card-text text-left mb-1' dangerouslySetInnerHTML={{__html: project.description}}></p>
                     <p className='card-text text-left mb-0'><span className='hover-underline-animation'>Responsibilities:</span></p>
-                    <ul>
+                    <ul className='px-3'>
                         {project.responsibilities.map((responsibility, index) => {
                             return <li key={index} dangerouslySetInnerHTML={{__html: responsibility}}></li>
                         })}

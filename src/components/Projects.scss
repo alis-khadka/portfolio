@@ -1,4 +1,5 @@
 #projects-content {
+	--swiper-theme-color: #000428;
 	background-color: #FFFFFF;
 
 	.slider {
@@ -52,6 +53,14 @@
 		font-size: 100px;
 	}
 
+	.swiper-button-prev {
+		left: 5px;
+	}
+	
+	.swiper-button-next {
+		right: 5px;
+	}
+
 	.slider > a {
 		display: inline-flex;
 		width: 1.5rem;
@@ -66,7 +75,7 @@
 	}
 
 	.card {
-		height: 100%;
+		height: 650px;
 		font-size: 20px;
 		background-color: #EEEEEE;
 		border: none;
@@ -76,6 +85,19 @@
 		.card-body {
 			font-size: 14px;
 			color: rgba(0, 4, 40, 0.7);
+			overflow-y: scroll;
+			margin-bottom: 3.0rem;
+		}
+
+		.card-body::-webkit-scrollbar {
+			-webkit-appearance: none;
+			width: 5px;
+			height: 10px;
+		}
+		
+		.card-body::-webkit-scrollbar-thumb {
+			border-radius: 5px;
+			background: rgba(0, 0, 0, 0.5);
 		}
 
 		.card-title {
@@ -156,6 +178,8 @@
 		}
 
 		.card {
+			height: 600px;
+
 			img {
 				max-height: 80px;
 			}
