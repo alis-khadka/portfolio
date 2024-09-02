@@ -4,6 +4,8 @@ import './Resume.scss';
 
 import { Worker, Viewer } from '@react-pdf-viewer/core';
 import { defaultLayoutPlugin } from '@react-pdf-viewer/default-layout';
+import { SpecialZoomLevel } from '@react-pdf-viewer/core';
+
 import resume from './Resume.pdf';
 
 function Resume() {
@@ -16,7 +18,7 @@ function Resume() {
 					fileUrl={resume}
 					plugins={[defaultLayoutPluginInstance]}
 					theme='dark'
-					defaultScale={1.5}
+					defaultScale={SpecialZoomLevel.PageFit}
 				/>
 			</Worker>
 		</div>
