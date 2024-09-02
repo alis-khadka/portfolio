@@ -11,13 +11,14 @@ function Notice() {
                 options={{
                     loop: true,
                     speed: 40,
+                    waitUntilVisible: true,
                 }}
                 getBeforeInit={(instance) => {
                     instance.type("Let's talk")
                     .pause(1225)
                     .delete(4)
                     .pause(400)
-                    .type("catch-up to discuss how we can benefit eachother.");
+                    .type("connect and build something great together.");
 
                     return instance;
                 }}

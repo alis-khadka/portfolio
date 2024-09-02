@@ -108,7 +108,7 @@ function Skills() {
           <span className='text-small mt-1'>Docker</span>
         </li>
         <li className='hover-underline-animation d-flex flex-column justify-content-center align-items-center'>
-		  <img alt='dokku icon' src={dokku} height={25} width={30}/>
+		      <img alt='dokku icon' src={dokku} height={25} width={30}/>
           <span className='text-small mt-1'>Dokku</span>
         </li>
         <li className='hover-underline-animation d-flex flex-column justify-content-center align-items-center'>

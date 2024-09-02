@@ -40,7 +40,7 @@
 
 @media (max-width: 991px) {
     .notice {
-        top: 1.5rem;
+        top: 2rem;
     }
 }
 
@@ -60,5 +60,17 @@
 
     .notice::before {
         font-size: 12px;
+    }
+}
+
+@media (max-width: 375px) {
+    .notice {
+        width: 90%;
+        font-size: 12px;
+        padding: 0 0.3rem 0.1rem 0.3rem;
+
+        fw-bold {
+            font-size: 14px !important;
+        }
     }
 }
