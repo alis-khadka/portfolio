@@ -13,7 +13,7 @@ function About() {
       </p>
 
       <p className="mb-2">
-        Fast-forward to today, with over 3.5 years of professional experience in the
+        Fast-forward to today, with about 4 years of professional experience in the
         field of software engineering, I’ve had the privilege of building softwares in
         domains like:
       </p>
