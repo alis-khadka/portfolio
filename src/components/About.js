@@ -17,18 +17,14 @@ function About() {
 
       <ul className="mb-4 px-3">
         <li>
-          <a
-            className="paragraph-highlights hover-underline-animation d-inline"
-            href="#"
-            rel="noreferrer"
-          >
+          <span className="paragraph-highlights hover-underline-animation d-inline">
             AI-powered troubleshooting agents and observability tools (PayPal)
-          </a>
+          </span>
         </li>
         <li>
           <a
             className="paragraph-highlights hover-underline-animation d-inline"
-            href="https://violet.restarone.solutions/"
+            href="https://github.com/restarone/violet_rails"
             target="_blank"
             rel="noreferrer"
           >
@@ -56,13 +52,9 @@ function About() {
           </a>
         </li>
         <li>
-          <a
-            className="paragraph-highlights hover-underline-animation d-inline"
-            href="#"
-            rel="noreferrer"
-          >
+          <span className="paragraph-highlights hover-underline-animation d-inline">
             E-commerce
-          </a>
+          </span>
         </li>
       </ul>
 
