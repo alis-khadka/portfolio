@@ -56,7 +56,7 @@ function Skills() {
           <span className='text-small mt-1'>MySQL</span>
         </li>
         <li className='hover-underline-animation d-flex flex-column justify-content-center align-items-center'>
-          <img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAABOklEQVR4nLXWSytFURjG8R+RMpCx3BmayDdgZCiRSOaKpIhvYKhkIAMpIhMTty9hbupyxsrtlDhHu7baHWfbp2156hnswfo/rffd612LbHViHRe4RzF2AVdYRZccihYd4xPlDH/gEO21wqfxUgO40k+YyIKv5ACXEy5hMQ0++0d4ORHyYyd9eA4UUMZuZcBRIPA1ZlCXhEcfwxjBUE4PoDWt9qPYwBZ2cngbC2hJC7gMVJ5b9FQLeAjY3PNqAW8BA4porAwoBgx4RUNlwF3AgNP/bPJN2sCbwknsvRy/6Sbm0OwXdaM34cEch60f9WkBh4HKVIgvqKZqO3gK2OzLtIumFABewnhaqZYCwOdlaDJnuR4xlgX/VgcO4gs9C/yOfbTVCk8qOjhr8RCLni3R3IocTc4zLP/2mvgCCy1j4IL+xMsAAAAASUVORK5CYII=' />
+          <img alt='Elasticsearch icon' src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAABOklEQVR4nLXWSytFURjG8R+RMpCx3BmayDdgZCiRSOaKpIhvYKhkIAMpIhMTty9hbupyxsrtlDhHu7baHWfbp2156hnswfo/rffd612LbHViHRe4RzF2AVdYRZccihYd4xPlDH/gEO21wqfxUgO40k+YyIKv5ACXEy5hMQ0++0d4ORHyYyd9eA4UUMZuZcBRIPA1ZlCXhEcfwxjBUE4PoDWt9qPYwBZ2cngbC2hJC7gMVJ5b9FQLeAjY3PNqAW8BA4porAwoBgx4RUNlwF3AgNP/bPJN2sCbwknsvRy/6Sbm0OwXdaM34cEch60f9WkBh4HKVIgvqKZqO3gK2OzLtIumFABewnhaqZYCwOdlaDJnuR4xlgX/VgcO4gs9C/yOfbTVCk8qOjhr8RCLni3R3IocTc4zLP/2mvgCCy1j4IL+xMsAAAAASUVORK5CYII=' />
           <span className='text-small mt-1'>Elasticsearch</span>
         </li>
         <li className='hover-underline-animation d-flex flex-column justify-content-center align-items-center'>
@@ -112,8 +112,20 @@ function Skills() {
           <span className='text-small mt-1'>Dokku</span>
         </li>
         <li className='hover-underline-animation d-flex flex-column justify-content-center align-items-center'>
-		  <FontAwesomeIcon icon={faPython} className='skill-icon' />
+          <FontAwesomeIcon icon={faPython} className='skill-icon' />
           <span className='text-small mt-1'>Python</span>
+        </li>
+        <li className='hover-underline-animation d-flex flex-column justify-content-center align-items-center'>
+          <span className='skill-icon text-center fw-bold'>AI</span>
+          <span className='text-small mt-1'>LangGraph / MCP</span>
+        </li>
+        <li className='hover-underline-animation d-flex flex-column justify-content-center align-items-center'>
+          <span className='skill-icon text-center fw-bold'>RAG</span>
+          <span className='text-small mt-1'>LLM Tools</span>
+        </li>
+        <li className='hover-underline-animation d-flex flex-column justify-content-center align-items-center'>
+          <span className='skill-icon text-center fw-bold'>API</span>
+          <span className='text-small mt-1'>FastAPI / Flask</span>
         </li>
       </ul>
     </section>

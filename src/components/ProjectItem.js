@@ -8,7 +8,7 @@ function ProjectItem(props) {
 	return (
         <div className='slide-item'>
             <div className="card">
-                <img className="card-img-top px-3" src={project.image} alt="Card cap" />
+                {project.image && <img className="card-img-top px-3" src={project.image} alt={`${project.name} preview`} />}
                 <div className="card-body d-flex flex-column pt-0 px-5">
                     <h5 className='card-title fw-bold'><span className=' hover-underline-animation'>{project.name}</span></h5>
                     <p className='card-text text-left mb-1' dangerouslySetInnerHTML={{__html: project.description}}></p>

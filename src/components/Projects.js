@@ -12,6 +12,7 @@ import Brandguarde from './../images/Brandguarde.png';
 import BrBytes from './../images/BrBytes.png';
 import CopperCRM from './../images/CopperCRM.png';
 import OhoEcommerce from './../images/OhoEcommerce.png';
+import PayPalTroubleshootingAgent from './../images/PayPalTroubleshootingAgent.png';
 import PlanAnalytics from './../images/PlanAnalytics.png';
 import RestaroneDesign from './../images/RestaroneDesign.png';
 import SpotifySearch from './../images/SpotifySearch.png';
@@ -19,6 +20,20 @@ import Trip101 from './../images/Trip101.png';
 import VioletRails from './../images/VioletRails.png';
 
 const projectsDetail = [
+	{
+		image: PayPalTroubleshootingAgent,
+		name: 'PayPal Troubleshooting Agent',
+		description: "A Slack-integrated troubleshooting system that helps L1 engineers analyze incidents and access internal how-to guidance through natural language.",
+		responsibilities: [
+			"Built Python agents with LangGraph, FastMCP, and MCP integrations for multiple PayPal products.",
+			"Implemented intent routing and FAQ/SOP RAG pipelines to select the right troubleshooting workflow.",
+			"Reduced LLM token consumption by <strong>approximately 50%</strong> with conversation-scoped state and targeted data retrieval.",
+			"Integrated Hyperwallet dashboards for KYC lifecycle analysis and diagnose production issues through root-cause analysis."
+		],
+		techStacks: [
+			'Python', 'LangGraph', 'FastMCP', 'MCP', 'RAG', 'LLM Tools', 'Slack', 'AWS'
+		]
+	},
 	{
 		image: VioletRails, 
 		name: 'Violet Rails',
@@ -223,11 +238,6 @@ const projectsDetail = [
 			'Angular 2+',
 			'Elasticsearch',
 			'Rspec'
-		],
-		liveLinks: [
-			{
-				link: "https://oho.bajratechnologies.com/service/mall"
-			}
 		]
 	},
 	{

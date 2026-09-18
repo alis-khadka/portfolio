@@ -8,17 +8,23 @@ function About() {
       </h2>
 
       <p className="mt-5 mb-4">
-        Back in 2014, I decided to try my hands on creating a simple calculator app
-        for my android smartphone which got me into coding and web development.
+        I'm a software engineer with 4+ years of backend and full-stack experience across fintech, SaaS, and e-commerce. I build Ruby on Rails applications and Python-based AI agents, with a focus on production troubleshooting, performance optimization, and reliable developer tools.
       </p>
 
       <p className="mb-2">
-        Fast-forward to today, with about 4 years of professional experience in the
-        field of software engineering, I’ve had the privilege of building softwares in
-        domains like:
+        My recent work includes building Slack-integrated troubleshooting agents at PayPal, designing RAG pipelines with LangGraph and MCP, and reducing LLM token usage by about 50% through conversation-scoped state and targeted data retrieval.
       </p>
 
       <ul className="mb-4 px-3">
+        <li>
+          <a
+            className="paragraph-highlights hover-underline-animation d-inline"
+            href="#"
+            rel="noreferrer"
+          >
+            AI-powered troubleshooting agents and observability tools (PayPal)
+          </a>
+        </li>
         <li>
           <a
             className="paragraph-highlights hover-underline-animation d-inline"
@@ -52,8 +58,7 @@ function About() {
         <li>
           <a
             className="paragraph-highlights hover-underline-animation d-inline"
-            href="https://oho.bajratechnologies.com/service/mall"
-            target="_blank"
+            href="#"
             rel="noreferrer"
           >
             E-commerce
@@ -62,25 +67,25 @@ function About() {
       </ul>
 
       <p>
-        My main focus these days has been in rebuilding and contributing to
-        {" "}<a
-          className="paragraph-highlights hover-underline-animation d-inline"
-          href="https://www.brbytes.org/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          BrBytes
-        </a>{" "}
-        as a 
-		{" "}<span className='fw-semibold text-dark'>Research Assistant</span> at
+        I hold an M.S. in Computer Science from
         {" "}<a
           className="paragraph-highlights hover-underline-animation d-inline"
           href="https://www.lsu.edu/"
           target="_blank"
           rel="noreferrer"
         >
-          Louisiana State University (LSU).
+          Louisiana State University
+        </a>. I previously worked as a
+		{" "}<span className='fw-semibold text-dark'>Research Assistant</span> at
+        {" "}<a
+          className="paragraph-highlights hover-underline-animation d-inline"
+          href="https://www.brbytes.org/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          BrBytes Lab
         </a>
+        , improving accessibility and teacher-facing tools.
       </p>
     </section>
   );

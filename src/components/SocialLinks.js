@@ -8,7 +8,7 @@ import {
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
 const emailAddress = "mailto:prashant.khadka052@gmail.com";
-const linkedInUrl = "https://www.linkedin.com/in/prashant-khadka-650a3a136/";
+const linkedInUrl = "https://www.linkedin.com/in/prashantkhadka";
 const instagramUrl = "https://www.instagram.com/alis_khadka";
 const githubLink = "https://github.com/alis-khadka";
 

@@ -5,7 +5,7 @@ import TypeIt from "typeit-react";
 function Notice() {
     return (
         <p className="notice">
-            I'm looking for <span className='fw-bold fs-5 hover-underline-animation'>Software Engineering</span> role starting <span className='fw-bold fs-5 hover-underline-animation'>January 2026</span>!!!
+            Software Engineer at <span className='fw-bold fs-5 hover-underline-animation'>PayPal</span>, building AI-powered developer tools.
             <br />
             <TypeIt
                 options={{
